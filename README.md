@@ -140,8 +140,8 @@ setLivros(result.books)           ← state no BookList
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/dear-book-collection.git
-cd dear-book-collection
+git clone https://github.com/carlosfonseca84/library-colection-api-react-tailwind.git
+cd nome-da-pasta
 
 # Instale as dependências
 npm install
@@ -265,8 +265,8 @@ setLivros(result.books)           ← BookList state
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/dear-book-collection.git
-cd dear-book-collection
+git clone https://github.com/carlosfonseca84/library-colection-api-react-tailwind.git
+cd name-file
 
 # Install dependencies
 npm install
