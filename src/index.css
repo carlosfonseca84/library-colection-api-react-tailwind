@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+/* ── Tipografia global ───────────────────── */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F0F4FA;
+  color: #1E2A3A;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Playfair para títulos — aplique com classe .font-editorial */
+.font-editorial {
+  font-family: 'Playfair Display', serif;
+}
+
+/* ── Paleta refinada (CSS vars) ──────────── */
+:root {
+  --azul-profundo:  #1B3A6B;   /* navbar, títulos fortes */
+  --azul-medio:     #2D5FA6;   /* botões primários       */
+  --azul-claro:     #4A80C4;   /* hover, acentos         */
+  --azul-suave:     #D6E4F7;   /* backgrounds de cards   */
+  --dourado:        #C4953A;   /* destaques, badges      */
+  --texto-forte:    #1E2A3A;   /* títulos e corpo        */
+  --texto-medio:    #4A5568;   /* subtítulos, labels     */
+  --texto-fraco:    #8A9AB5;   /* placeholders, metas    */
+  --borda:          #C8D8EE;   /* bordas suaves          */
+  --fundo:          #F0F4FA;   /* fundo da página        */
+  --card:           #FFFFFF;   /* fundo dos cards        */
+}
+
+/* ── Scrollbar fina e elegante ───────────── */
+::-webkit-scrollbar        { width: 6px; height: 6px; }
+::-webkit-scrollbar-track  { background: var(--fundo); }
+::-webkit-scrollbar-thumb  { background: var(--borda); border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: var(--azul-claro); }
+
+/* ── Utilitário: esconde scrollbar no carrossel ── */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
